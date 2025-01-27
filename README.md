@@ -263,6 +263,5 @@ from mcpi import block
 confrim = "да"
 x, y, z = mc.player.getTilePos()
 while confrim.lower() == "да":
-    
-mc.setBlock(x + 1, y, z, 92)
+    mc.setBlock(x + 1, y, z, 92)
 ```
